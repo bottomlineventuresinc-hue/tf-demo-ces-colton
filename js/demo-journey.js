@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Residential electrical, panel work, and wiring. Across Colton and the Inland Empire. Joshua looks at the job first and puts the price in writing.';
+            'Residential electrical, panel work, and wiring in Colton. Joshua looks at the job first and puts the price in writing.';
         }
       }
     },
