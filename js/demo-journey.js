@@ -1,4 +1,4 @@
-/* Template Factory - Custom Electrical live demo journey.
+/* Template Factory - Custom Electrical Services live demo journey.
    Client-side simulate only. No real AI, SMS, or backend. */
 (function () {
   'use strict';
@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Residential electrical, panel work, and wiring across Colton and the Inland Empire. Fixed itemised quotes before we start, Joshua as your named lead on site, and a twelve-month workmanship guarantee when we leave.';
+            'Residential electrical, panel work, and wiring. Across Colton and the Inland Empire. Joshua looks at the job first and puts the price in writing.';
         }
       }
     },
@@ -65,7 +65,7 @@
       id: 'h1',
       apply: function () {
         if (heroH) {
-          heroH.innerHTML = 'Panel work and wiring,<br>quoted <em>before</em> we start.';
+          heroH.innerHTML = 'Colton residential<br>electrical and panels,<br>priced <em>first.</em>';
         }
       }
     },
@@ -73,7 +73,7 @@
       id: 'service',
       apply: function () {
         if (serviceFirst) {
-          serviceFirst.textContent = 'Residential electrical (written programme)';
+          serviceFirst.textContent = 'Panel upgrades (written price)';
         }
       }
     }
@@ -85,7 +85,7 @@
     /* mode: draft | updated */
     if (!barSub) return;
     if (mode === 'updated') {
-      barSub.textContent = 'Draft updated. More changes? Or claim it.';
+      barSub.textContent = 'Draft for Joshua at Custom Electrical Services. Claim it, preview the rest of the journey, or request a change.';
     } else {
       barSub.textContent = 'Draft for Joshua at Custom Electrical Services. Claim it, preview the rest of the journey, or request a change.';
     }
@@ -158,7 +158,7 @@
       var delay = 2500 + Math.floor(Math.random() * 1500);
       runSpinner(
         'Working on updates to your site…',
-        'Updating the draft for Custom Electrical. Hang tight.',
+        'Updating the draft for Custom Electrical Services. Hang tight.',
         delay,
         function () {
           var editId = applyNextEdit();
